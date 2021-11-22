@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import Button from "@/components/Button/Button";
 
 export default function Home() {
   return (
@@ -16,15 +17,11 @@ export default function Home() {
           Hi&#44; <br /> I&apos;m Chinmoy&#44; <br />
           Fullstack developer
         </h1>
-
         <p className={styles.description}>
           Connect with me{" "}
-          <a
-            href="https://www.linkedin.com/in/chinmoypradhan/"
-            className={styles.button}
-          >
-            Linked in
-          </a>
+          <Button link="https://www.linkedin.com/in/chinmoypradhan/">
+            Linkedin
+          </Button>
         </p>
       </main>
 
