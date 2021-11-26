@@ -50,6 +50,7 @@ const Container = styled.div`
   justify-content: space-between;
 `;
 const Main = styled.div`
+font-family: Cartoon;
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -66,7 +67,8 @@ const Title = styled.h1`
   margin: 0;
   line-height: 1.15;
   text-align: left;
+  font-size: 3rem;
   @media ${device.laptop} {
-    font-size: 4rem;
+    font-size: 6rem;
   }
 `;

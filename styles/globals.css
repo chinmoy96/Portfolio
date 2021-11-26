@@ -1,3 +1,8 @@
+
+@font-face {
+	font-family: Cartoon;
+	src: url(./Snickles.ttf);
+  }
 html,
 body {
   padding: 0;
